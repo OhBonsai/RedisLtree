@@ -1,7 +1,7 @@
 # RedisTree
 
 ## 就算是插满起了旗帜，我也不介意再来一个😄
-2020.12.30 23:59:59 之前用RUST实现Postgres Ltree到Redis的复刻
+2021.02.11 23:59:59 之前用RUST实现Postgres Ltree到Redis的复刻
 
 ### 严肃学习前的强烈冲动
 - Redis缺乏一个树数据结构基础设施，有用Lua脚本实现的，我觉得太LOW!
