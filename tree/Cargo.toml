@@ -1,0 +1,14 @@
+[package]
+name = "tree"
+version = "0.1.0"
+authors = ["OhBonsai <letbonsaibe@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "tree"
+path = "src/lib.rs"
+
+[[bin]]
+name = "play"
+path = "src/play.rs"

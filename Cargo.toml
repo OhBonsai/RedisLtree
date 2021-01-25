@@ -1,0 +1,18 @@
+[package]
+name = "redistree"
+version = "0.1.0"
+authors = ["OhBonsai <letbonsaibe@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["dylib"]
+name = "retree"
+
+
+[dependencies]
+redis-module = { version="0.11", features = ["experimental-api"]}
+fulltree = {path="./tree", package="tree"}
+simpletree = {path="./tree2", package="stree"}
+
+[features]
+test = ["redis-module/test"]

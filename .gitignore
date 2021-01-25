@@ -1,0 +1,8 @@
+target
+test/testspace
+.vscode
+*/target
+
+tests/.pytest_cache
+tests/__pycache__
+tree2
